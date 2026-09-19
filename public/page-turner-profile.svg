@@ -1,0 +1,27 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="840" fill="#F5DDD7"/>
+  <rect y="590" width="1200" height="250" fill="#400710"/>
+  <path d="M0 590H1200" stroke="#E9C349" stroke-width="8"/>
+  <rect x="112" y="172" width="976" height="430" rx="8" fill="#FFF8F6" stroke="#735C00" stroke-width="8"/>
+  <path d="M112 250H1088" stroke="#D9C1C1" stroke-width="6"/>
+  <path d="M145 250H1055V574H145V250Z" fill="#FFE9E3"/>
+  <path d="M196 301H1004V574H196V301Z" fill="#5C1D24"/>
+  <path d="M234 352H966V574H234V352Z" fill="#400710"/>
+  <path d="M550 352H650V574H550V352Z" fill="#FFE088"/>
+  <path d="M234 352H966" stroke="#FFE088" stroke-width="8"/>
+  <path d="M279 402H424V574H279V402Z" fill="#B98063"/>
+  <path d="M445 402H530V574H445V402Z" fill="#D89C77"/>
+  <path d="M670 402H753V574H670V402Z" fill="#C67567"/>
+  <path d="M779 402H924V574H779V402Z" fill="#B98063"/>
+  <path d="M279 402L295 375H408L424 402" fill="#FFE088"/>
+  <path d="M445 402L455 378H520L530 402" fill="#FFE088"/>
+  <path d="M670 402L680 378H743L753 402" fill="#FFE088"/>
+  <path d="M779 402L795 375H908L924 402" fill="#FFE088"/>
+  <rect x="468" y="202" width="264" height="54" rx="4" fill="#400710"/>
+  <text x="600" y="237" text-anchor="middle" fill="#FFE088" font-family="Georgia, serif" font-size="28" font-weight="bold" letter-spacing="3">PAGETURNER</text>
+  <circle cx="600" cy="126" r="42" fill="#FFE088" stroke="#735C00" stroke-width="6"/>
+  <path d="M578 112C590 99 603 99 612 112C621 99 634 99 646 112V151C634 139 621 139 612 151C603 139 590 139 578 151V112Z" fill="#400710"/>
+  <path d="M168 626H1032" stroke="#FFE088" stroke-width="3" opacity=".6"/>
+  <text x="600" y="693" text-anchor="middle" fill="#FFF8F6" font-family="Georgia, serif" font-size="38" font-weight="bold">Independent books, thoughtfully chosen.</text>
+  <text x="600" y="744" text-anchor="middle" fill="#F5DDD7" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">HISTORIC MILL DISTRICT • EST. 1998</text>
+</svg>

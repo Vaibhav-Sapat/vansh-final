@@ -21,7 +21,7 @@ export const SeoSection: React.FC = () => {
     "name": "PageTurner Books",
     "description": "Historic independent bookseller offering curated literary fiction, rare first editions, artisanal tea nooks and author salons.",
     "url": "https://pageturnerbooks.local",
-    "telephone": "+1-555-724-3887",
+    "telephone": "+91 93708 99431",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "142 Cobblestone Walk",

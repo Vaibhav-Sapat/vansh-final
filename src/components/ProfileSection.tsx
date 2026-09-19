@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, BookMarked, CheckCircle2, AlertTriangle, Store, Clock, Sparkles } from 'lucide-react';
+import { MapPin, BookMarked, CheckCircle2, AlertTriangle, Clock, Phone, Mail } from 'lucide-react';
 
 export const ProfileSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'overview' | 'hours' | 'specialties'>('overview');
@@ -19,6 +19,69 @@ export const ProfileSection: React.FC = () => {
             <div className="h-[1px] w-12 bg-[#e9c349]"></div>
             <span className="text-[#735c00] text-sm">❦</span>
             <div className="h-[1px] w-12 bg-[#e9c349]"></div>
+          </div>
+        </div>
+
+        {/* Front-facing business profile */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-10">
+          <div className="lg:col-span-5 overflow-hidden rounded-2xl border border-[#d9c1c1]/60 bg-[#400710] shadow-lg">
+            <div className="relative aspect-[4/3] w-full overflow-hidden">
+              <img
+                src="./page-turner-profile.svg"
+                alt="Illustrated front of PageTurner Books"
+                className="h-full w-full object-cover"
+              />
+              <span className="absolute left-4 top-4 rounded-full bg-[#ffe088] px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-[#400710] shadow-sm">
+                Local landmark
+              </span>
+            </div>
+            <div className="border-t border-[#ffe088]/30 px-5 py-4 text-[#fff8f6]">
+              <p className="font-serif text-xl font-semibold">PageTurner Books</p>
+              <p className="mt-1 text-xs text-[#f5ddd7]">Independent bookstore and reading salon</p>
+            </div>
+          </div>
+
+          <div className="lg:col-span-7 rounded-2xl border border-[#d9c1c1]/60 bg-[#fff8f6] p-5 shadow-sm sm:p-7">
+            <div className="mb-5 flex items-end justify-between gap-4 border-b border-[#d9c1c1]/50 pb-4">
+              <div>
+                <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#735c00]">Business profile</p>
+                <h3 className="mt-1 font-serif text-2xl font-semibold text-[#400710]">The place for curious readers</h3>
+              </div>
+              <span className="hidden rounded-full bg-[#ffe9e3] px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-[#735c00] sm:inline-flex">Verified details</span>
+            </div>
+
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+              <div className="rounded-xl border border-[#d9c1c1]/50 bg-[#fff8f6] p-4">
+                <p className="text-[11px] font-bold uppercase tracking-wide text-[#735c00]">Business name</p>
+                <p className="mt-1 text-sm font-semibold text-[#400710]">PageTurner Books</p>
+              </div>
+              <div className="rounded-xl border border-[#d9c1c1]/50 bg-[#fff8f6] p-4">
+                <p className="text-[11px] font-bold uppercase tracking-wide text-[#735c00]">Business type</p>
+                <p className="mt-1 text-sm text-[#534343]">Independent bookstore & salon</p>
+              </div>
+              <div className="rounded-xl border border-[#d9c1c1]/50 bg-[#fff8f6] p-4">
+                <p className="text-[11px] font-bold uppercase tracking-wide text-[#735c00]">Location</p>
+                <p className="mt-1 text-sm text-[#534343]">142 Cobblestone Walk, Historic Mill District</p>
+              </div>
+              <div className="rounded-xl border border-[#d9c1c1]/50 bg-[#fff8f6] p-4">
+                <p className="text-[11px] font-bold uppercase tracking-wide text-[#735c00]">Services</p>
+                <p className="mt-1 text-sm text-[#534343]">Curated books, rare editions, author salons, reading nooks</p>
+              </div>
+              <div className="flex items-start gap-3 rounded-xl border border-[#d9c1c1]/50 bg-[#fff8f6] p-4">
+                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[#735c00]" />
+                <div>
+                  <p className="text-[11px] font-bold uppercase tracking-wide text-[#735c00]">Email</p>
+                  <p className="mt-1 text-sm text-[#534343]">hello@pageturnerbooks.local</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 rounded-xl border border-[#d9c1c1]/50 bg-[#fff8f6] p-4">
+                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[#735c00]" />
+                <div>
+                  <p className="text-[11px] font-bold uppercase tracking-wide text-[#735c00]">Phone</p>
+                  <p className="mt-1 text-sm font-semibold text-[#400710]">+91 93708 99431</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -119,8 +182,8 @@ export const ProfileSection: React.FC = () => {
             <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-[#fff8f6]">
               <div className="relative h-72 sm:h-80 w-full overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?auto=format&fit=crop&w=1000&q=80"
-                  alt="PageTurner Books Storefront on Cobblestone Street"
+                  src="./page-turner-profile.svg"
+                  alt="Illustrated PageTurner Books storefront"
                   className="w-full h-full object-cover object-center filter contrast-[1.02] hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
